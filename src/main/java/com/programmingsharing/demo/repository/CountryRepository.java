@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.programmingsharing.demo.entities.Country;
 
 @Repository
-public interface CountryRepository extends CrudRepository<Integer, Country> {
+public interface CountryRepository extends CrudRepository<Country, Integer> {
 
 }
